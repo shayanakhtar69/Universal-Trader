@@ -1,0 +1,29 @@
+{
+  "users": [],
+  "products": [],
+  "customers": [],
+  "orders": [],
+  "orderItems": [],
+  "payments": [],
+  "suppliers": [],
+  "purchases": [],
+  "purchaseItems": [],
+  "stockMovements": [],
+  "shopProfile": {
+    "name": "UNIVERSAL TRADER",
+    "tagline": "Wholesale Provision, Spices, Pulses & Grain Merchants",
+    "ownerName": "Universal Trader Owner",
+    "phone": "+92 300 1234567 / 042-37654321",
+    "email": "owner@universaltrader.com",
+    "address": "Shop No. 42-45, Grain Market, Wholesale Complex",
+    "city": "Grain Market",
+    "ntn": "NTN: 8492018-4",
+    "currency": "PKR",
+    "currencySymbol": "Rs.",
+    "terms": "Goods once sold will not be taken back. Payment due within agreed terms."
+  },
+  "invoiceCounter": 1001,
+  "purchaseCounter": 101,
+  "paymentCounter": 101,
+  "saved_at": "2026-08-19T20:54:12.369Z"
+}

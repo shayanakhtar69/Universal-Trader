@@ -1,0 +1,6 @@
+{
+  "name": "Universal Trader",
+  "description": "Internal wholesale shop management app for Universal Trader with inventory, credit ledger, takeaway billing in PKR Rs, supplier purchases, and role isolation for owners and salesmen.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
