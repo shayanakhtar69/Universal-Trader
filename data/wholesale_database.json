@@ -1,6 +1,32 @@
 {
-  "users": [],
-  "products": [],
+  "users": [
+    {
+      "id": "usr_owner_1787613044069_5snm",
+      "name": "Farhan Akhtar",
+      "username": "farhan akhtar",
+      "email": "ishayan611@gmail.com",
+      "role": "owner",
+      "phone": "03336861516",
+      "active": true,
+      "password_hash": "$2b$10$OMinfM7C.1dKTAqRWAR1AupLvyKd9dbM4vOxOWMtKpO17eBQpz5xa",
+      "created_at": "2026-08-24T23:10:44.069Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_1787613130678_kb6o",
+      "name": "sunsilk",
+      "code": "1",
+      "category": "Grains & Pulses",
+      "unit": "carton",
+      "wholesale_price": 200,
+      "cost_price": 190,
+      "current_stock": 100,
+      "low_stock_threshold": 10,
+      "created_at": "2026-08-24T23:12:10.678Z",
+      "updated_at": "2026-08-24T23:12:10.678Z"
+    }
+  ],
   "customers": [],
   "orders": [],
   "orderItems": [],
@@ -8,14 +34,31 @@
   "suppliers": [],
   "purchases": [],
   "purchaseItems": [],
-  "stockMovements": [],
+  "stockMovements": [
+    {
+      "id": "sm_1787613130678",
+      "product_id": "prod_1787613130678_kb6o",
+      "product_name": "sunsilk",
+      "unit": "carton",
+      "change_amount": 100,
+      "reason": "adjustment",
+      "reference_id": "prod_1787613130678_kb6o",
+      "reference_number": "INITIAL_STOCK",
+      "previous_stock": 0,
+      "new_stock": 100,
+      "recorded_by_id": "usr_owner_1787613044069_5snm",
+      "recorded_by_name": "Farhan Akhtar",
+      "notes": "Initial inventory entry",
+      "created_at": "2026-08-24T23:12:10.678Z"
+    }
+  ],
   "shopProfile": {
-    "name": "UNIVERSAL TRADER",
-    "tagline": "Wholesale Provision, Spices, Pulses & Grain Merchants",
-    "ownerName": "Universal Trader Owner",
-    "phone": "+92 300 1234567 / 042-37654321",
+    "name": "Universal Trader",
+    "tagline": "cosmetic store",
+    "ownerName": "Farhan Akhtar",
+    "phone": "03336861516",
     "email": "owner@universaltrader.com",
-    "address": "Shop No. 42-45, Grain Market, Wholesale Complex",
+    "address": "Purani sabzi mandi road muzaffargarh",
     "city": "Grain Market",
     "ntn": "NTN: 8492018-4",
     "currency": "PKR",
@@ -25,5 +68,5 @@
   "invoiceCounter": 1001,
   "purchaseCounter": 101,
   "paymentCounter": 101,
-  "saved_at": "2026-08-19T20:54:12.369Z"
+  "saved_at": "2026-08-24T23:12:10.679Z"
 }
